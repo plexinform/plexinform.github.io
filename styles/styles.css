@@ -1,0 +1,55 @@
+@font-face{
+	font-family: "My comic";
+	src: url("Comic.ttf") format("truetype");
+}
+body {
+	 font-family: My comic;
+	
+    margin: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #000000;
+    color: grey;
+    animation: bounce;
+    animation-duration: 1.5s;
+    }
+
+#enter_tav {
+  position : relative;
+  border-style:none;
+}
+#q {
+  position:relative;
+  font-weight: normal;
+  }
+#playsong {
+  position : absolute;
+  border-style:none;
+  top: 3%;
+  right: 1%;
+  color: black;
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  animation: flash;
+  --animate-repeat: 5;
+  animation-duration: 9s;
+  }
+  a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+#note {
+  color:green;
+  animation: heartBeat;
+  --animate-repeat: 2;
+  animation-duration: 3s;
+  }
