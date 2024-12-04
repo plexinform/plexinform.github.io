@@ -1,0 +1,14 @@
+{
+  "name": "neocities-notparody",
+  "version": "1.0.9",
+  "description": "website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "notparody",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

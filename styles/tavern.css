@@ -1,20 +1,20 @@
-@font-face{
-	font-family: "My comic";
-	src: url("Comic.ttf") format("truetype");
+@font-face {
+	font-family: "Moscow";
+	src: url("fonts/MOSCOW2024.otf");
 }
 body {
-	 font-family: My comic;
-	
-    margin: 0;
+	font-family: Moscow;
 
-    display: flex;
+	margin: 0;
 
-    flex-direction: column;
+	display: flex;
 
-    align-items: center;
+	flex-direction: column;
 
-    height: 100vh;
+	align-items: center;
 
-    background-color: #000000;
-    color: grey;
+	height: 100vh;
+
+	background-color: #000000;
+	color: grey;
 }

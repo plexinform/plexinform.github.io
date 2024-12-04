@@ -1,55 +1,58 @@
-@font-face{
-	font-family: "My comic";
-	src: url("Comic.ttf") format("truetype");
+@font-face {
+  font-family: "MOSCOW2024";
+  /* при измении шрифта менять все его упоминания в коде */
+  src: url("fonts/MOSCOW2024.otf");
 }
+
 body {
-	 font-family: My comic;
-	
-    margin: 0;
+  font-family: MOSCOW2024;
 
-    display: flex;
+  margin: 0;
 
-    flex-direction: column;
+  display: flex;
 
-    align-items: center;
+  flex-direction: column;
 
-    height: 100vh;
+  align-items: center;
 
-    background-color: #000000;
-    color: grey;
-    animation: bounce;
-    animation-duration: 1.5s;
-    }
+  background-color: #580058;
+  color: darkorange;
+  animation: fadeInTopRight;
+  animation-duration: 0.8s;
+  overflow-x: hidden;
+}
 
 #enter_tav {
-  position : relative;
-  border-style:none;
+  position: relative;
+  border-style: none;
 }
-#q {
-  position:relative;
-  font-weight: normal;
-  }
-#playsong {
-  position : absolute;
-  border-style:none;
-  top: 3%;
-  right: 1%;
-  color: black;
-  background-color: #000000;
+#q1 {
+  position: relative;
+  font-weight: cursive;
+}
+#playpause {
+  position: absolute;
+  border-style: none;
+  top: 1.1%;
+  right: -0.3em;
+  background-color: transparent;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   animation: flash;
-  --animate-repeat: 5;
+  --animate-repeat: 3;
   animation-duration: 9s;
-  }
-  a, a:visited, a:hover, a:active {
+}
+a,
+a:visited,
+a:hover,
+a:active {
   color: inherit;
 }
 #note {
-  color:green;
+  color: #35c435;
+  position: relative;
   animation: heartBeat;
-  --animate-repeat: 2;
+  --animate-repeat: 3;
   animation-duration: 3s;
-  }
+}

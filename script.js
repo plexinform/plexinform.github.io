@@ -1,7 +1,3 @@
-function toggleMute() {
-
-   var myAudio = document.getElementById('privetsvie');
-
-   myAudio.muted = !myAudio.muted;
-
-}
+var music_play = document.getElementById('street');
+      function togglePlay() {
+      return music_play.paused ? music_play.play() : music_play.pause();}
